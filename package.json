@@ -1,0 +1,27 @@
+{
+  "name": "fastify-file-upload",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fastify/multipart": "^9.0.1",
+    "@types/node": "^22.9.0",
+    "fast-csv": "^5.0.2",
+    "fastify": "^5.1.0",
+    "fastify-multer": "^2.0.3",
+    "multer": "^1.4.5-lts.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/mime-types": "^2.1.4",
+    "@types/multer": "^1.4.12"
+  }
+}
